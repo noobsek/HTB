@@ -1,0 +1,11 @@
+GET /?lang=fr HTTP/1.1
+Host: 94.237.61.84:50003
+Accept-Language: en-GB,en;q=0.9
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.6723.70 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://94.237.61.84:50003/
+Accept-Encoding: gzip, deflate, br
+Cookie: remember_token=2|6452e1566364092be9078d3069f0a2bd23a1207999086a1ee72bc547ff5095196194e6b2b2b5fc8584edd4598f276d3cc361179ea2b654fc7060b56b2516e42a; JSESSIONID=A0D020587F5828A99F98BFC255474B3B
+Connection: keep-alive
+

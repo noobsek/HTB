@@ -1,0 +1,91 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-01-06 21:20 IST
+NSE: Loaded 156 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 21:20
+Completed NSE at 21:20, 0.00s elapsed
+Initiating NSE at 21:20
+Completed NSE at 21:20, 0.00s elapsed
+Initiating NSE at 21:20
+Completed NSE at 21:20, 0.00s elapsed
+Initiating Ping Scan at 21:20
+Scanning 10.10.11.48 [4 ports]
+Completed Ping Scan at 21:20, 0.11s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 21:20
+Completed Parallel DNS resolution of 1 host. at 21:20, 0.03s elapsed
+Initiating SYN Stealth Scan at 21:20
+Scanning 10.10.11.48 [1000 ports]
+Discovered open port 80/tcp on 10.10.11.48
+Discovered open port 22/tcp on 10.10.11.48
+Completed SYN Stealth Scan at 21:20, 0.90s elapsed (1000 total ports)
+Initiating Service scan at 21:20
+Scanning 2 services on 10.10.11.48
+Completed Service scan at 21:20, 6.14s elapsed (2 services on 1 host)
+Initiating OS detection (try #1) against 10.10.11.48
+Retrying OS detection (try #2) against 10.10.11.48
+Retrying OS detection (try #3) against 10.10.11.48
+Retrying OS detection (try #4) against 10.10.11.48
+Retrying OS detection (try #5) against 10.10.11.48
+Initiating Traceroute at 21:21
+Completed Traceroute at 21:21, 0.06s elapsed
+Initiating Parallel DNS resolution of 2 hosts. at 21:21
+Completed Parallel DNS resolution of 2 hosts. at 21:21, 0.07s elapsed
+NSE: Script scanning 10.10.11.48.
+Initiating NSE at 21:21
+Completed NSE at 21:21, 1.72s elapsed
+Initiating NSE at 21:21
+Completed NSE at 21:21, 0.25s elapsed
+Initiating NSE at 21:21
+Completed NSE at 21:21, 0.00s elapsed
+Nmap scan report for 10.10.11.48
+Host is up (0.055s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.9p1 Ubuntu 3ubuntu0.10 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 48:b0:d2:c7:29:26:ae:3d:fb:b7:6b:0f:f5:4d:2a:ea (ECDSA)
+|_  256 cb:61:64:b8:1b:1b:b5:ba:b8:45:86:c5:16:bb:e2:a2 (ED25519)
+80/tcp open  http    Apache httpd 2.4.52 ((Ubuntu))
+| http-methods: 
+|_  Supported Methods: OPTIONS HEAD GET POST
+|_http-title: Apache2 Ubuntu Default Page: It works
+|_http-server-header: Apache/2.4.52 (Ubuntu)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=1/6%OT=22%CT=1%CU=34115%PV=Y%DS=2%DC=T%G=Y%TM=677BF
+OS:BF0%P=x86_64-pc-linux-gnu)SEQ()SEQ(SP=FE%GCD=1%ISR=107%TI=Z%CI=Z%II=I)SE
+OS:Q(SP=FE%GCD=1%ISR=107%TI=Z%CI=Z%II=I%TS=A)SEQ(SP=FE%GCD=2%ISR=107%TI=Z%C
+OS:I=Z%II=I%TS=C)OPS(O1=M552ST11NW7%O2=M552ST11NW7%O3=M552NNT11NW7%O4=M552S
+OS:T11NW7%O5=M552ST11NW7%O6=M552ST11)WIN(W1=FE88%W2=FE88%W3=FE88%W4=FE88%W5
+OS:=FE88%W6=FE88)ECN(R=N)ECN(R=Y%DF=Y%T=40%W=FAF0%O=M552NNSNW7%CC=Y%Q=)T1(R
+OS:=N)T1(R=Y%DF=Y%T=40%S=O%A=O%F=AS%RD=0%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%
+OS:RD=0%Q=)T2(R=N)T3(R=N)T4(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=
+OS:)T4(R=Y%DF=Y%T=40%W=0%S=O%A=Z%F=R%O=%RD=0%Q=)T5(R=N)T5(R=Y%DF=Y%T=40%W=0
+OS:%S=Z%A=O%F=AR%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T
+OS:6(R=N)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S
+OS:=O%A=Z%F=R%O=%RD=0%Q=)T7(R=N)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=O%F=AR%O=%RD=0%Q
+OS:=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=N)U1(R=Y%DF=N%T=40%
+OS:IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=N)IE(R=Y%DFI=N%T=40%
+OS:CD=S)
+
+Uptime guess: 20.485 days (since Tue Dec 17 09:43:26 2024)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=254 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT      ADDRESS
+1   56.09 ms 10.10.14.1
+2   56.07 ms 10.10.11.48
+
+NSE: Script Post-scanning.
+Initiating NSE at 21:21
+Completed NSE at 21:21, 0.00s elapsed
+Initiating NSE at 21:21
+Completed NSE at 21:21, 0.00s elapsed
+Initiating NSE at 21:21
+Completed NSE at 21:21, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 23.72 seconds
+           Raw packets sent: 1230 (62.518KB) | Rcvd: 1148 (52.720KB)
