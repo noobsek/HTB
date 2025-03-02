@@ -1,2 +1,3 @@
 *.ovpn
 CDNio/app_code/*
+CDNio/qldb/*
