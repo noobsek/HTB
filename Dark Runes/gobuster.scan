@@ -1,0 +1,22 @@
+===============================================================
+Gobuster v3.6
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://83.136.249.46:43337
+[+] Method:                  GET
+[+] Threads:                 20
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-1.0.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.6
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+[2K/Documents            (Status: 401) [Size: 12]
+[2K/register             (Status: 200) [Size: 1020]
+[2K/login                (Status: 200) [Size: 1014]
+[2K/css                  (Status: 301) [Size: 173] [--> /css/]
+
+===============================================================
+Finished
+===============================================================
