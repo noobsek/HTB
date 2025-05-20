@@ -1,0 +1,64 @@
+===============================================================
+Gobuster v3.6
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://planning.htb
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirb/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.6
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+[2K/css                  (Status: 301) [Size: 178] [--> http://planning.htb/css/]
+[2K/img                  (Status: 301) [Size: 178] [--> http://planning.htb/img/]
+[2K/index.php            (Status: 200) [Size: 23914]
+[2K/js                   (Status: 301) [Size: 178] [--> http://planning.htb/js/]
+[2K/lib                  (Status: 301) [Size: 178] [--> http://planning.htb/lib/]
+
+===============================================================
+Finished
+===============================================================
+===============================================================
+Gobuster v3.6
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://planning.htb
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirb/extensions_common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.6
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+[2K/                     (Status: 200) [Size: 23914]
+
+===============================================================
+Finished
+===============================================================
+===============================================================
+Gobuster v3.6
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://planning.htb
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-1.0.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.6
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+[2K/img                  (Status: 301) [Size: 178] [--> http://planning.htb/img/]
+[2K/lib                  (Status: 301) [Size: 178] [--> http://planning.htb/lib/]
+[2K/css                  (Status: 301) [Size: 178] [--> http://planning.htb/css/]
+[2K/js                   (Status: 301) [Size: 178] [--> http://planning.htb/js/]
+
+===============================================================
+Finished
+===============================================================
